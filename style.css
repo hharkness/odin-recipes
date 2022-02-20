@@ -1,26 +1,33 @@
 h1{
     background-color: dodgerblue;
+    border: 2px solid violet;
 }
 h2{
     background-color: bisque;
+    
 }
-a:link, a:visited{
-    color: rgb(54, 133, 133);
-    background-color: rgb(160, 202, 83);
-    padding: 14px,25px;
-    text-align: center;
-    text-decoration:none;
+.item{
+    list-style: none;
     display: inline-block;
-    border: 2px solidgreen;
+    margin: 2px solid black;
 
 }
-a:hover{
-    color: blueviolet;
+
+.recipe-list a {
+    
+    background-color: rgb(179,57,81);
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+
 }
-body{
-    background-color: lightblue;
-    opacity: 0,3;
+.recipe-list a:hover{
+    
+    background-color: rgb(66, 28, 40);
+    color: white;
+    
 }
-ul{
-    background-color: aquamarine;
-}
+
+
+
